@@ -1,4 +1,4 @@
-# Author: Garyoung Gary Lee
+# Author: Garyoung Gary Lee, Alexis Yang
 
 import argparse
 from TAS import tas

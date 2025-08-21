@@ -1,0 +1,1 @@
+![branding](.img/baca-lab-branding.jpeg)
