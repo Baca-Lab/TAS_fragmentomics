@@ -32,7 +32,7 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 
 
 ## Nucelosome repeat length simulation<br>
-A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb** (Python version 3.9.23). Running all cells with our setup takes approximately 1 hour.
+A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb** (Python version 3.9.23). Running all cells takes approximately 1 hour.
 
 #### Dependencies
 All analyses and tests were conducted in a Linux environment (CentOS 7.9).
