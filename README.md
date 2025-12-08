@@ -31,13 +31,12 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 ```
 
 <br>
-
 ## Nucelosome repeat length simulation<br>
 A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**.
 
 #### Dependencies
 All analyses and tests were conducted in a Linux environment (CentOS 7.9).
-- 
+- xxx
 - 
 
 
