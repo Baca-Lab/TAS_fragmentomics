@@ -1,8 +1,8 @@
 ![branding](.img/baca-lab-branding.jpeg)
 
-# [Name]
+## TAS fragmentomics
 
-###### This repository contains Transcriptional Activation Score (TAS) calculation, and nucleosome repeat length simulation.
+##### This repository contains Transcriptional Activation Score (TAS) calculation, and nucleosome repeat length simulation.
 
 
 ### Transcriptional Activation Score (TAS) Calculation<br>
@@ -10,8 +10,8 @@ This module takes fragment count matrix as input and computes TAS by considering
 
 ----
 #### Dependencies
-- pandas
-- numpy
+- pandas (1.1.5 or later)
+- numpy (1.19.2 or later)
 
 #### Quick start
 ```
@@ -30,4 +30,9 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 ```
 
 <br>
-### Nucelosome repeat length simulation<br>
+## Nucelosome repeat length simulation<br>
+* Please see /NRL_simulation/NRL_demo.ipynb<br>
+
+#### Dependencies
+- pandas (1.1.5 or later)
+- numpy (1.19.2 or later)
