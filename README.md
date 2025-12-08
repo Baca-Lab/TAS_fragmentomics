@@ -4,13 +4,15 @@
 
 ##### This repository contains Transcriptional Activation Score (TAS) calculation, and nucleosome repeat length simulation.
 
+All development and testing were performed on CentOS 7.9.
+The dependencies listed below should install within a few minutes in a standard computing environment.
 
 ### Transcriptional Activation Score (TAS) Calculation<br>
 This module takes fragment count matrix as input and computes TAS by considering the relationship between correlation between expression (see /correlation matrix ; supplementary table (see reference)) and fragmentation patteren near transcription start site (TSS).
 
 ----
 #### Dependencies
-All analyses and tests were conducted in a Linux environment (CentOS 7.9).
+- Python3
 - pandas (1.1.5 or later)
 - numpy (1.19.2 or later)
 
@@ -32,10 +34,10 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 
 
 ## Nucelosome repeat length simulation<br>
-A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb** (Python version 3.9.23). Running all cells takes approximately 1 hour.
+A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb** Running all cells on a single CPU core takes approximately 1 hour.
 
 #### Dependencies
-All analyses and tests were conducted in a Linux environment (CentOS 7.9).
+- Python 3.9.23
 - pandas (2.3.1)
 - numpy (2.0.2)
 - joblib (1.5.1)
