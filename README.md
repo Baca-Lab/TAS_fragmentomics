@@ -11,7 +11,7 @@ This module takes fragment count matrix as input and computes TAS by considering
 ----
 #### Dependencies
 - pandas (1.1.5 or later)
-- numpy (1.19.2 or later)
+- numpy (1.19.2 or later)<br>
 All analyses and tests were conducted in a Linux environment (CentOS 7.9).
 
 #### Quick start
@@ -38,5 +38,5 @@ A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**.
 #### Dependencies
 - 
 - 
-All analyses and tests were conducted in a Linux environment (CentOS 7.9).
+<br>All analyses and tests were conducted in a Linux environment (CentOS 7.9).
 
