@@ -30,9 +30,10 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 ```
 
 <br>
+
 ## Nucelosome repeat length simulation<br>
 * Please see /NRL_simulation/NRL_demo.ipynb<br>
 
 #### Dependencies
-- pandas (1.1.5 or later)
-- numpy (1.19.2 or later)
+- 
+- 
