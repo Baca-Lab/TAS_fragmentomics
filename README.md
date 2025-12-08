@@ -30,8 +30,8 @@ python run_tas.py -i ./example_input/example_twod.csv -pe enhancer --mode pfTAS 
 python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode pfTAS -a True
 ```
 
-<br>
 ## Nucelosome repeat length simulation<br>
+
 A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**.
 
 #### Dependencies
