@@ -32,6 +32,17 @@ python run_tas.py -i ./example_input/example_twod.csv -pe enhancer --mode pfTAS 
 python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode pfTAS -a True
 ```
 
+## TAS demo
+
+This demo reproduces one of the analyses presented in the main text (**Figure 5f**).
+The workflow includes all steps from data download to figure generation.
+The demo can be run using:
+
+```bash
+bash TAS_demo/run.bash
+```
+Upon completion, demo_plot.png will be generated in the output directory.
+
 
 ## Nucelosome repeat length simulation<br>
 A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**. Running all cells on a single CPU core takes approximately 1 hour.
