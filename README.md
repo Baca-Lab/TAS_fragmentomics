@@ -37,14 +37,14 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**. Running all cells on a single CPU core takes approximately 1 hour.
 
 #### Dependencies
-- Python 3.9.23
-- pandas (2.3.1)
-- numpy (2.0.2)
-- joblib (1.5.1)
-- matplotlib (3.9.4)
-- scikit-optimize (0.10.2)
-- scipy (1.13.1)
-- tqdm (4.67.1)
+- Python 3.11.16
+- pandas 3.0.5
+- numpy 2.4.6
+- joblib 1.6.0
+- matplotlib 3.11.1
+- scikit-optimize 0.10.2
+- scipy 1.17.1
+- tqdm 4.70.0
 
 
 
