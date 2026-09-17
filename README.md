@@ -43,6 +43,10 @@ bash TAS_demo/run.bash
 ```
 Upon completion, demo_plot.png will be generated in the output directory.
 
+#### Dependencies
+- pyranges 0.1.4
+- scipy 1.17.1
+
 
 ## Nucelosome repeat length simulation<br>
 A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**. Running all cells on a single CPU core takes approximately 1 hour.
