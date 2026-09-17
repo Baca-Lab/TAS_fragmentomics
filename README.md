@@ -34,7 +34,7 @@ python run_tas.py -i ./example_input/example_aggregated.csv -pe promoter --mode 
 
 ## TAS demo
 
-This demo reproduces one of the analyses presented in the main text (**Figure 5f**).
+This demo reproduces one of the analyses presented in the main text (Figure 5f; see reference).
 The workflow includes all steps from data download to figure generation.
 The demo can be run using:
 
@@ -61,7 +61,8 @@ A step-by-step demo is available in the **/NRL_simulation/NRL_demo.ipynb**. Runn
 - scipy 1.17.1
 - tqdm 4.70.0
 
-
+## Reference
+will be added
 
 
 
