@@ -40,9 +40,9 @@ def get_tas(frag_path, ge, mode, aggreated):
     frag_df.index = frag_df.index.astype(float)
     
     if ge=='enhancer':
-        cij = pd.read_csv('./correlation_matrix_supplementary_table/enhancer_smoothed_full.csv', index_col=0)
+        cij = pd.read_csv('./../correlation_matrix_supplementary_table/enhancer_smoothed_full.csv', index_col=0)
     elif ge=='promoter':
-        cij = pd.read_csv('./correlation_matrix_supplementary_table/promoter_smoothed_full.csv', index_col=0)
+        cij = pd.read_csv('./../correlation_matrix_supplementary_table/promoter_smoothed_full.csv', index_col=0)
     else:
         raise ValueError('Please specify either enhancer or promoter')
     cij.columns = cij.columns.astype(float)
