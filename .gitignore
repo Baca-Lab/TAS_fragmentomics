@@ -1,7 +1,6 @@
 .img/
 .ipynb_checkpounts/
-.TAS_demo/frag_bed
-.TAS_demo/intermediate
 TAS_demo/frag_bed
 TAS_demo/intermediate
+TAS_demo/__pycache__
 
